@@ -1,0 +1,45 @@
+" Pathogen
+execute pathogen#infect()
+execute pathogen#helptags()
+
+" be iMproved
+set nocompatible
+
+" Backups and undo
+set nobackup
+set nowb
+set noswapfile
+
+" Tabs and indent
+set tabstop=4        " tab size equals 4 spaces
+set softtabstop=4
+set shiftwidth=4
+set expandtab        " replace tabs with ${tabstop} spaces
+set autoindent       " newline auto indents to previous line
+
+" Show line numbers
+set number
+
+" Searching
+set hlsearch       " highlight search
+set ignorecase     " be case insensitive
+set smartcase      " be case sensitive when input has a capital letter
+set incsearch      " show matches while typing
+
+set ruler
+
+" Enable warning if about to perform destructive write.
+" Issue when you open the same file in multiple instances of vim.
+set autoread
+
+" Get rid of splash screen
+set shortmess+=I
+
+" History
+set history=50
+
+" Colors
+syntax enable
+colorscheme onedark
+filetype plugin indent on
+
