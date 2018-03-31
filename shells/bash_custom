@@ -1,0 +1,3 @@
+# Command prompt
+export PS1="\u@\W: \[$(tput sgr0)\]"
+
