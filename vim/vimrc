@@ -38,6 +38,9 @@ set shortmess+=I
 " History
 set history=50
 
+" Disable bell in Jetbrain IDEs vim plugin
+set visualbell
+
 " Colors
 syntax enable
 colorscheme onedark
